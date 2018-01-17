@@ -1,0 +1,11 @@
+framework module MaterialTextInputs {
+  umbrella header "MaterialTextInputs.h"
+
+  export *
+  module * { export * }
+}
+
+module MaterialTextInputs.Swift {
+    header "MaterialTextInputs-Swift.h"
+    requires objc
+}
